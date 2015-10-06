@@ -1,0 +1,463 @@
+* {
+	font-family: 'Poiret One', Helvetica;
+	background-color: #191919;
+	color: white;
+	max-width: 100%;
+    overflow-x: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	width: 88%;
+	padding: 1%;
+	font-size: 60px;
+	border: 1px groove #DFE2DB;
+	text-shadow:    
+		-2px -2px 0 #000,  
+    	2px -2px 0 #000,
+    	-2px 2px 0 #000,
+    	2px 2px 0 #000;
+
+	margin: 2% 0%;
+	-webkit-filter: grayscale(75%);
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 24px;
+	text-align: center;
+}
+
+p {
+	font-size: 18px;
+	color: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a {
+	text-align: center;
+	background-color: #191919;
+}
+
+#navContainer {
+	border: 1px groove #DFE2DB;
+	border-radius: 25px 10px;
+	background-color: #191919;
+	width: 90%;
+
+	margin-bottom: 2%;
+}
+
+h1, h2, #navContainer {
+	position: relative;
+	left: 4.8%;
+}
+
+.button {
+	display: center;
+	color: #191919;
+	font-size: 25px;
+	background-color: #DFE2DB;
+	border: 1px solid black;
+	border-radius: 25px 10px;
+}
+
+.button img {
+	width: 7%;
+	height: 7%;
+	background-color: #DFE2DB;
+}
+
+#current {
+	background-color: #191919;
+	color: #DFE2DB;
+	border: 1px solid #DFE2DB;
+} 
+
+#current img {
+	background-color: #191919;
+	color: #DFE2DB;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+.imageText {
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	width: 300px;
+	position: relative;
+	left: 4.8%;
+	border: 3px groove black;
+	background-color: #DFE2DB;
+	margin-top: 1%;
+}
+
+hr {
+	position: relative;
+	left: 5%;
+	border: 0; 
+    height: 1px; 
+    width: 90%;
+    opacity: 0.5;
+    margin: 2% 0%;
+}
+
+.divider {
+	display: block;
+	height: 2px;
+	width: 95%;
+	opacity: 0.5;
+	margin: 2% 0%;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#DFE2DB), to(#191919));
+}
+
+.fixedLine {
+	display: none;
+	height: 2px;
+	width: 95%;
+	opacity: 0.75;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#191919), to(#DFE2DB));
+}
+
+.innerText {
+	display: none;
+	color: black;
+	background-color: inherit;
+}
+
+.showInnerText {
+	display: inline;
+	color: black;
+	background-color: inherit;
+}
+
+.title {
+	text-align: center;
+	font-size: 50px;
+}
+
+.list {
+	cursor: pointer;
+	border: 1px groove #DFE2DB;
+	width: 87%;
+	position: relative;
+	left: 4.8%;
+	margin: 5% 0%;
+	padding: 1% 1%;
+}
+
+footer {
+	color: #DFE2DB;
+	background: linear-gradient(#191919, black);
+	font-size: 12px;
+	width: 100%;
+	margin-top: 3%;
+	padding: 0% 0% 2% 4.8%;
+
+}
+
+#footerText {
+	display: inline-block;
+	background-color: inherit;	
+	margin-bottom: 1%;
+	font-size: 14px;
+}
+
+#footerImages {
+	display: inline-block;
+	width: 100%;
+	background: inherit;
+}
+
+.link {
+	position: relative;
+	background: inherit;
+	-webkit-filter: grayscale(50%);
+}
+
+#eecs {
+	font-style: italic;
+}
+
+#differences {
+	text-decoration: underline;
+}
+
+.submit_page, .sent {
+	text-align: left;
+	position: relative;
+	left: 4.8%;
+	margin: 0.5% 0%;
+}
+
+#samus {
+	visibility: hidden;
+	position: relative;
+	left: 4.8%;
+	opacity: 0.5;
+	margin: 2% 0%;
+	border: 3px solid black;
+
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ 
+/* ------------------------------------------------------------------------------------------------------------------------------ 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 719px) {
+	h1, h2 {
+		text-align: center;
+		width: 88%;
+	}
+
+	h2 {
+		margin: 8% 0%;
+	}
+
+	.button img {
+		width: 4%;
+		height: 4%;
+	}
+
+	.button {
+		margin: 0.5%;
+		padding: 5% 0%;
+	}
+
+	.imageText {
+		display: inline-block;
+		text-align: center;
+	}
+
+	form {
+		margin: 1% 0%;
+	}
+
+	fieldset {
+		position: relative;
+		left: 4.8%;
+		width: 83%;
+		padding: 3% 3%;
+	}
+
+	label {
+		display: block;
+		font-size: 20px;
+		margin: 3% 0%;
+	}
+
+	input {
+		position: absolute;
+		left: 45%;
+		width: 42%;
+		height: 22px;
+		font-size: 20px;
+	}
+
+	textarea {
+		font-size: 14px;
+		width: 90%;
+		height: 100px;
+		margin-top: 3%;
+	}
+
+	input[type="submit"] {
+		position: relative;
+		left: 0%;
+		width: 50%;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 720px) {
+	h2 {
+		margin: 4% 0% 2% 0%;
+	}
+
+	.button {
+		display: inline-block;
+		text-align: center;
+		width: 16.3%;
+		font-size: 18px;
+
+		margin: 0.5% 0.25%;
+		padding: 1%;
+	}
+
+	.list {
+		font-size: 30px;
+		padding: 1% 1.5%;
+	}
+
+	form {
+		position: relative;
+		left: 4.8%;
+		width: 90%;
+	}
+
+	fieldset {
+		margin: 2% 0%;
+		padding: 1% 1%;
+	}
+
+	label {
+		display: block;
+		font-size: 20px;
+		margin: 1% 0%;
+	}
+
+	input {
+		font-size: 20px;
+		position: absolute;
+		left: 30%;
+		width: 40%;
+	}
+
+	textarea {
+		position: relative;
+		left: 0%;
+		font-size: 18px;
+		margin-top: 1%;
+		width: 70%;
+		height: 200px;
+	}
+
+	input[type="submit"] {
+		position: relative;
+		left: 0%;
+		width: 30%;
+		margin: 2% 0%;
+	}
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 985px) {
+	h2 {
+		margin: 2% 0%;
+	}
+
+	.button {
+		display: inline-block;
+		font-size: 22px;
+		width: 16.7%;
+	}
+
+	.button img {
+		width: 7%;
+		height: 7%;
+	}
+
+	.button:hover {
+		transition: 0.5s ease;
+		background-color: #FFF056;
+		color: #191919;
+	}
+
+	#current:hover {
+		background-color: #191919;
+		color: #DFE2DB;
+	}
+
+	.imageText {
+		display: inline-block;
+		transition: 0.25s;
+		-webkit-filter: grayscale(100%);
+	}
+
+	.imageText:hover {
+		transition: 0.25s;
+		-webkit-filter: grayscale(0%);
+	}
+
+	.list {
+		font-size: 20px;
+		padding: 1% 1.5%;
+	}
+
+	#eecs, #got {
+		color: #DFE2DB;
+	}
+
+	.link:hover {
+		color: #FFF056;
+	}
+
+	form {
+		position: relative;
+		left: 4.8%;
+		width: 90%;
+	}
+
+	fieldset {
+		margin: 2% 0%;
+		padding: 1% 1%;
+	}
+
+	label {
+		font-size: 20px;
+		display: block;
+		margin: 1% 0%;
+	}
+
+	input {
+		font-size: 20px;
+		position: absolute;
+		left: 20%;
+		width: 30%;
+	}
+
+	textarea {
+		position: relative;
+		left: 0%;
+		font-size: 18px;
+		margin-top: 1%;
+		width: 50%;
+		height: 200px;
+	}
+
+	input[type="submit"] {
+		position: relative;
+		left: 0.2%;
+		width: 10%;
+		margin-top: 2%;
+	}
+
+	#samus {
+		visibility: visible;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
